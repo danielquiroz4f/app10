@@ -1,0 +1,498 @@
+<!doctype html>
+<html>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<head>
+<meta charset="utf-8">
+<title>Daniel Quiroz Garcia</title>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!--grupo CSS-->
+<link rel="stylesheet" type="text/css" href="css/app9.min.css.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.mobile.icons-1.4.5.min.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.4.5.min.css">
+<!--Java-->
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src ="phonegap.js"></script>
+
+
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/4mayo1.jpg','imagenes/5mayo1.jpg','imagenes/berriozabal.jpg','imagenes/zaragoza.jpg','imagenes/javascript2.png','imagenes/queries2.png','imagenes/wampserver2.png','imagenes/php2.png')">
+
+<div data-role="page" id "Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>CURSO DAW</h1>
+</div>
+<div data-role="main" class="ul-content">
+    </div>
+<div>
+ <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>HTML (1)</h2>
+  <p>Conceptos basicos de html.</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>HTML (2)</h2>
+    <p>Segunda parte del curso de html</p>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>CSS (1)</h2>
+  <p>Conceptos basicos de css</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>CSS (2)</h2>
+    <p>segunda parte del curso de css</p>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>JavaScript</h2>
+    <p>Introduccion al lenguaje JavaScript</p>
+   </a>   
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Queries</h2>
+    <p>¿Que son las queries?</p>
+   </a>   
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>PHP</h2>
+    <p>¿Que es PHP?</p>
+   </a>   
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>WampServer</h2>
+    <p>¿Que es WampServer?</p>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Paginas recomendadas</h2>
+    <p>Paginas recomendadas</p>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Autor</h2>
+    <p>Datos del autor</p>
+   </a>
+   </li>
+  </ul>
+  </div>
+   
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/silder1.jpg" alt="silder1" title="silder1" id="wows1_00"/></li>
+		<li><img src="data1/images/slider2.png" alt="slider2" title="slider2" id="wows1_01"/></li>
+		<li><img src="data1/images/slider3.png" alt="slider3" title="slider3" id="wows1_02"/></li>
+		<li><img src="data1/images/slider4.jpg" alt="slider4" title="slider4" id="wows1_03"/></li>
+		<li><img src="data1/images/slider5.png" alt="slider5" title="slider5" id="wows1_04"/></li>
+		<li><img src="data1/images/slider6.png" alt="slider6" title="slider6" id="wows1_05"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/slider7.jpg" alt="wowslider" title="slider6" id="wows1_06"/></a></li>
+		<li><img src="data1/images/slider8.jpg" alt="slider8" title="slider8" id="wows1_07"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="silder1"><span><img src="data1/tooltips/silder1.jpg" alt="silder1"/>1</span></a>
+		<a href="#" title="slider2"><span><img src="data1/tooltips/slider2.png" alt="slider2"/>2</span></a>
+		<a href="#" title="slider3"><span><img src="data1/tooltips/slider3.png" alt="slider3"/>3</span></a>
+		<a href="#" title="slider4"><span><img src="data1/tooltips/slider4.jpg" alt="slider4"/>4</span></a>
+		<a href="#" title="slider5"><span><img src="data1/tooltips/slider5.png" alt="slider5"/>5</span></a>
+		<a href="#" title="slider6"><span><img src="data1/tooltips/slider6.png" alt="slider6"/>6</span></a>
+		<a href="#" title="slider7"><span><img src="data1/tooltips/slider7.jpg" alt="slider7"/>7</span></a>
+		<a href="#" title="slider8"><span><img src="data1/tooltips/slider8.jpg" alt="slider8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src ="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+      <h4>Aplicacion 10</h4>
+      <h4>Quiroz Garcia Daniel</h4>
+   </div>
+  </div>
+  </div>
+<div data-role="page" id="Pagina1" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>HTML 1</h1>
+    </div>
+     <div data-role="content" align="center">
+     <div >
+       <p>HTML es un lenguaje de marcado de hipertexto que funciona con casi todos los servidores y por lo tanto abarcan todas las paginas web, en este curso veremos como se escribe codigo html y algunos ejemplos asi como videos etc.</p>
+       <h4>¡Recuerda siempre cerrar etiquetas y tener bien <strong>maquetado</strong> tu codigo!</h4>
+       <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('html','','imagenes/html2.jpg',1)"><img src="imagenes/html1.jpg" width="240" height="317" id="html"></a></p>
+     </div>
+     <div style="width:40%;"> 
+      <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child">
+        <a href="http://paginaspersonales.deusto.es/airibar/Ed_digital/HTML/HTML_1.html#1" data-role="button">
+         <h2>Estructura basica</h2>
+        </a>
+       </li>
+      </ul>
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion 6 DQG</h4>
+   </div>
+  </div>
+  
+<div data-role="page" id="Pagina2" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>HTML 2</h1>
+    </div>
+   <div data-role="content" align="center">
+     <div >
+     <p>Organización del contenido de la página Un tema grande a tratar se debe de dividir en subtemas, colocando cada uno de ellos en páginas distintas, relacionadas unas a otras por medio de Links. Un grupo de páginas relacionadas recibe el nombre de sitio. Si se coloca bastante información en una pagina, esta debe de tener un menú o índice propio, y en cada tema debe de haber opciones de retorno al menú y a los temas siguientes y anteriores. Incluir gráficos, y/o gif animados en todas las páginas. Es conveniente hacer paginas vistosas por lo que es recomendable que tenga gráficos, sin embargo hay que tener cuidado de no utilizar demasiados, o gráficos muy grandes, ya que haría que la página se cargara muy lenta. Cuando tenemos necesidad de colocar un gran número de gráficos, la técnica a seguir es reducir las imágenes y colocarlos así en la página, elaborando un código para permitir ampliar la imagen del gráfico ó mostrar una página adicional con el gráfico de gran tamaño. Cuando se necesite mostrar una imagen grande, se presenta primero en la pagina una imagen reducida dándole el link o enlace a una imagen grande (al oprimir click a la imagen se carga una pagina con la imagen amplificada.) Elección de Gráficos Para diseñar una página Web, debemos de contar con imágenes que no ocupen una gran cantidad de Bytes, ya que eso hace que la página sea demasiado lenta para cargar, y provocaría que el visitante se desespere y salga de ella. Se recomienda realizar un balance entre calidad y velocidad de carga, tratando siempre de tener las imágenes de calidad aceptable que ocupen poco espacio. Las imágenes con mucha calidad ocupan más espacio que las que no la tienen. Se recomienda que en la pagina de inicio o home page, sea aproximadamente de 40 k incluyendo las imágenes. Para que los visitantes que tienen conexiones lentas no se desesperen y cancelen la carga de la página. Términos importantes: HTML  Abreviatura de Hyper Text Markup Language  WWW  Abreviatura de World Wide Web  FTP  Abreviatura de File Transfer Protocol. (Protocolo de Transferencia de archivos. Es el empleado por programas que sirven para transmitir (enviar) o recibir información a un servidor. Es el utilizado para enviar paginas a un servidor.  URL  Uniform Resource Locator. Este termino se refiere a una dirección de Internet, o una dirección de FTP.</p>
+     <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('htmla','','imagenes/htmla2.jpg',1)"><img src="imagenes/htmla1.jpg" width="434" height="393" id="htmla"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('5mayo','','imagenes/5mayo1.jpg',1)"></a></p>
+     </div>
+      <div style="width:40%;"> 
+      <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child">
+        <a href="http://tutoriales.igluppiweb.com.ar/html/index.htm" data-role="button">
+         <h2>Ver mas</h2>
+        </a>
+       </li>
+      </ul>
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion 10 </h4>
+     <h4>DQG</h4>
+   </div>
+  </div>
+ 
+ 
+<div data-role="page" id="Pagina3" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>CSS 1</h1>
+    </div>
+ 
+<div data-role="content" align="center">
+  <div>
+     <p>CSS es un lenguaje de hojas de estilo utilizado para darle presentación a sitios web creados con HTML, después de haber aprendido HTML lo siguiente que tienes que aprender es CSS, la definición anterior puede parecer un poco confusa pero te explico, CSS es el lenguaje que nos permite darle estilos, formas, tamaños, colores y posición a los elementos creados en un sitio web.</p>
+     <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('css','','imagenes/css2.png',1)"><img src="imagenes/css.png" width="297" height="297" id="css"></a></p>
+  </div>
+  <div style="width:40%;"> 
+      <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child">
+        <a href="http://www.falconmasters.com/cursos/curso-css-basico/curso-css-basico/" data-role="button">
+         <h2>Ver mas</h2>
+        </a>
+       </li>
+      </ul>
+  </div>
+   
+
+
+</div>
+
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion 10</h4>
+     <h4> Daniel Quiroz Garcia</h4>
+   </div>
+  </div>
+  
+<div data-role="page" id="Pagina4" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>CSS (2)</h1>
+    </div>
+<div data-role="content" align="center">
+     <div >
+     <h2>Una vez aprendidos los temas de CSS basicos veremos algunas cosas como animaciones y degradados</h2>
+     </div>
+
+<div data-role="collapsible" data-content-theme="false">
+  <h1> Degradados </h1>
+   <div>
+   <br>
+   </div>
+   <div> 
+     <p>
+        <img src="imagenes/css22.png" width="30%" height="auto">
+     </p>
+    </div>
+    </div>
+
+    <div data-role="collapsible" data-content-theme="false">
+  <h1> Animaciones </h1>
+   <div>
+   <br>
+   </div>
+   <div> 
+     <p>
+     <img src="imagenes/css21.png" width="30%" height="auto">
+     </p>
+    </div>
+    </div>
+
+   <div style="width:40%;"> 
+      <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child">
+        <a href="http://tutoriales.igluppiweb.com.ar/html/index.htm" data-role="button">
+         <h2>Ver mas</h2>
+        </a>
+       </li>
+      </ul>
+  </div> 
+
+</div>    
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion 10</h4>
+     <h4> Daniel Quiroz Garcia</h4>
+   </div>
+  </div>
+  
+  
+<div data-role="page" id="Pagina5" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>JavaScript</h1>
+    </div>
+     <div data-role="content" align="center">
+     <div >
+       <p></p>
+       <h4>¡Recuerda siempre cerrar etiquetas y tener bien <strong>maquetado</strong> tu codigo!</h4>
+       <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('java','','imagenes/javascript2.png',1)"><img src="imagenes/javascript.png" width="300" height="300" id="java"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('html','','imagenes/html2.jpg',1)"></a></p>
+     </div>
+     <div style="width:40%;"> 
+      <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child">
+        <a href="https://www.javascript.com/" data-role="button">
+         <h2>Ver mas</h2>
+        </a>
+       </li>
+      </ul>
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion 6 DQG</h4>
+   </div>
+  </div>
+  
+<div data-role="page" id="Pagina6" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Queries</h1>
+</div>
+    
+<div data-role="content" align="center">
+  <div>
+    <p>Las Queries son las reglas de estilo que hacen que las paginas web tengan una buena distribuicion en diferentes pantallas</p>
+     <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('queries','','imagenes/queries2.png',1)"><img src="imagenes/queries.png" width="690" height="362" id="queries"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('java','','imagenes/javascript2.png',1)"></a></p>
+  </div>
+  <div style="width:40%;"> 
+      <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child">
+        <a href="https://www.inboundcycle.com/blog-de-inbound-marketing/que-significa-query-y-por-que-es-necesario-entender-este-concepto-seo" data-role="button">
+         <h2>Ver mas</h2>
+        </a>
+       </li>
+      </ul>
+  </div>
+
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion 10 </h4>
+     <h4>Daniel Quiroz Garcia</h4>
+   </div>
+  </div>
+  </div>
+  
+<div data-role="page" id="Pagina7" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1> PHP </h1>
+    </div>
+     <div data-role="content" align="center">
+     <div >
+       <p>HTML es un lenguaje de marcado de hipertexto que funciona con casi todos los servidores y por lo tanto abarcan todas las paginas web, en este curso veremos como se escribe codigo html y           algunos ejemplos asi como videos etc.</p>
+       <h4>¡Recuerda siempre cerrar etiquetas y tener bien <strong>maquetado</strong> tu codigo!</h4>
+       <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('php','','imagenes/php2.png',1)"><img src="imagenes/php.jpg" width="291" height="173" id="php"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('html','','imagenes/html2.jpg',1)"></a></p>
+     </div>
+     <div style="width:40%;"> 
+      <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child">
+        <a href="http://paginaspersonales.deusto.es/airibar/Ed_digital/HTML/HTML_1.html#1" data-role="button">
+         <h2>Estructura basica</h2>
+        </a>
+       </li>
+      </ul>
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion 10</h4>
+     <h4> Daniel Quiroz Garcia</h4>
+   </div>
+  </div>
+  
+<div data-role="page" id="Pagina8" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1> WampServer </h1>
+    </div>
+     <div data-role="content" align="center">
+     <div >
+       <p>WampServer es un entorno de desarrollo web para Windows con el que podrás crear aplicaciones web con Apache, PHP y bases de datos MySQL database. También incluye PHPMyAdmin y SQLiteManager para manejar tus bases de datos.</p>
+       <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('wampserver','','imagenes/wampserver2.png',1)"><img src="imagenes/wampserver.png" width="400" height="400" id="wampserver"></a></p>
+     </div>
+     <div style="width:40%;"> 
+      <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child">
+        <a href="#Pagina5" data-role="button">
+         <h2>Estructura basica</h2>
+        </a>
+       </li>
+      </ul>
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion 10</h4>
+     <h4> Daniel Quiroz Garcia</h4>
+   </div>
+  </div>
+  
+<div data-role="page" id="Pagina9" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Páginas recomendadas</h1>
+    </div>
+     <div data-role="content" align="center">
+     <div >
+       <p>Estas son algunas paginas recomendadas</p>
+        <p>https://es.lipsum.com/ <br>
+       https://css3maker.com/ <br> 
+       https://collorzilla.com/ <br> 
+       https://useragentman.com/ <br> 
+       https://danden.github/animate.com/ <br> 
+       https://1001fonts.com/ <br> 
+       https://responsivegridsystem.com/ <br> 
+       https://ionicons.com/ <br>  </p>
+      
+      
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/pag1.png" alt="pag1" title="pag1" id="wows1_0"/></li>
+		<li><img src="data1/images/pag2.png" alt="pag2" title="pag2" id="wows1_1"/></li>
+		<li><img src="data1/images/pag3.png" alt="pag3" title="pag3" id="wows1_2"/></li>
+		<li><img src="data1/images/pag4.png" alt="pag4" title="pag4" id="wows1_3"/></li>
+		<li><img src="data1/images/pag5.png" alt="pag5" title="pag5" id="wows1_4"/></li>
+		<li><img src="data1/images/pag6.png" alt="pag6" title="pag6" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/pag7.png" alt="jquery slider" title="pag7" id="wows1_6"/></a></li>
+		<li><img src="data1/images/pag8.png" alt="pag8" title="pag8" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="pag1"><span><img src="data1/tooltips/pag1.png" alt="pag1"/>1</span></a>
+		<a href="#" title="pag2"><span><img src="data1/tooltips/pag2.png" alt="pag2"/>2</span></a>
+		<a href="#" title="pag3"><span><img src="data1/tooltips/pag3.png" alt="pag3"/>3</span></a>
+		<a href="#" title="pag4"><span><img src="data1/tooltips/pag4.png" alt="pag4"/>4</span></a>
+		<a href="#" title="pag5"><span><img src="data1/tooltips/pag5.png" alt="pag5"/>5</span></a>
+		<a href="#" title="pag6"><span><img src="data1/tooltips/pag6.png" alt="pag6"/>6</span></a>
+		<a href="#" title="pag7"><span><img src="data1/tooltips/pag7.png" alt="pag7"/>7</span></a>
+		<a href="#" title="pag8"><span><img src="data1/tooltips/pag8.png" alt="pag8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+      
+      
+     </div>
+     
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion 6 DQG</h4>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina10" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1> Datos del Autor </h1>
+    </div>
+     <div data-role="content" align="center">
+     <div>
+       <h1> Daniel Quiroz Garcia </h1>
+       <h2> cuarto semestre grupo "F" <br> Profesor: lic.Jose Antonio Gomez Hernandez</h2>
+       <p> Proyecto final DAM </p>
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion 10</h4>
+     <h4> Daniel Quiroz Garcia</h4>
+   </div>
+  </div>
+</body>
+</html>
